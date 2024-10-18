@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "fh-ui"
+  site-url: "https://curtis-allan.github.io/fh-ui"
+  description: "Exploring the use cases of client-side libraries and JS frameworks with FastHTML"
+  repo-branch: main
+  repo-url: "https://github.com/curtis-allan/fh-ui"
