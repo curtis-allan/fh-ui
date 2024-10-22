@@ -1,0 +1,15 @@
+Frontend javascript frameworks are a certified nightmare.
+
+I'm thinking, bunch of tools already out there that make life very easy for developing with it, possible I pivot and try implementing a tool into the fasthtml/ starlette server config that handles css&js bundling and serving?
+
+This adds bloat and extra steps, but the final build will be minified which is good for prod ig. Maybe I try and integrate something like vite or bun into fasthtml via an abstracted python script, that automates bundling, output files + package management.
+
+The end goal for something like this would have to be:
+
+- Doesn't affect the current FastHTML system at all, still run python main.py and the server starts
+
+- Doesn't impact performance, or as little as possible (best case scenario would be a performance improvement)
+
+- Would need to have an incredibly easy usage system: python method that takes simple inputs (most likely just file names) and just works in the runtime
+
+Will explore this concept a bit - Javascript is integral part of the web unfortunately, and having easy access to all the available tools + frameworks in FastHTML would open the framework itself up to broader range of possibilities I believe
